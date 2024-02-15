@@ -1,0 +1,13 @@
+Does my problem match this pattern?
+
+    Yes, if all of these conditions are fulfilled:
+
+        The input data can be traversed in a linear fashion, that is, it’s in an array, in a linked list, or in a string of characters.
+
+        We limit our focus to a specific range of elements within the input data, as dictated by the positions of the two pointers, allowing us to consider a small subset of elements rather than the entire set.
+
+Additionally, problems in this pattern usually involve comparing or swapping values pointed to by two indexes. In less common cases, each index may move along a separate array or string.
+
+    No, if either of these conditions is fulfilled:
+        The input data cannot be traversed in a linear fashion, that is, it’s neither in an array, nor in a linked list, nor in a string of characters.
+        The problem requires an exhaustive search of the solution space, that is, eliminating one solution does not eliminate any others.
