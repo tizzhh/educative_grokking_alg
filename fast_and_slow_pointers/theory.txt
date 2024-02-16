@@ -1,0 +1,16 @@
+Does my problem match this pattern?
+
+    Yes, if either of these conditions is fulfilled:
+
+        Either as an intermediate step, or as the final solution, the problem requires identifying:
+            the first x %x % of the elements in a linked list, or,
+            the element at the kk-way point in a linked list, for example, the middle element, or the element at the start of the second quartile, etc.
+            the kthkth last element in a linked list
+
+        Solving the problem requires detecting the presence of a cycle in a linked list.
+
+        Solving the problem requires detecting the presence of a cycle in a sequence of symbols.
+
+    No, if either of these conditions is fulfilled:
+        The input data cannot be traversed in a linear fashion, that is, it’s neither in an array, nor in a linked list, nor in a string of characters.
+        The problem can be solved with two pointers traversing an array or a linked list at the same pace.
